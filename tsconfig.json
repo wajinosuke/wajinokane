@@ -7,10 +7,6 @@
     "lib": [
       "es2015",
       "es2015.promise"
-    ],
-    "types":[
-      "iconv-lite",
-      "moment"
     ]
   }
 }
