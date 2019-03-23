@@ -11,7 +11,7 @@ export class CSVConverter {
         this._readMapFile();
     }
     private _readMapFile() {
-        var _mapJson = JSON.parse(fs.readFileSync(this._mapFilename, 'utf8'));
+        this._mapJson = JSON.parse(fs.readFileSync(this._mapFilename, 'utf8'));
     }
     public convertCsv(csvFilename:string){
         return new Promise((resolve,reject)=> {
