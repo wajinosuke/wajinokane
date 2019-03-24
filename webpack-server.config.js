@@ -6,10 +6,13 @@ module.exports = {
     devtool: 'source-map',
     // node_modules配下のパッケージをWebpackに含まないように設定
     externals: [nodeExternals()],
-    entry: [path.join(__dirname, '/src/server/main.ts')],
+    entry: {
+        'csv_converter': path.join(__dirname, '/src/server/CSVConverter/main.ts'),
+        'server_main': path.join(__dirname, '/src/server/main.ts')
+    },
     output: {
         path: `${__dirname}/dist_server/bin/`,
-        filename: 'server_main.js'
+        filename: '[name].js'
     },
     module: {
         rules: [{

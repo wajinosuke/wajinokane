@@ -5,7 +5,8 @@
   "main": "main.tsx",
   "scripts": {
     "test": "jest",
-    "exec": "node dist/server/main.js",
+    "csv_converter": "node dist_server/bin/CSVConverter.js",
+    "server_main": "node dist_server/bin/server_main.js",
     "build": "webpack",
     "start": "webpack-dev-server --port 3000 --contentBase ./dist_client/assets/ --open true"
   },

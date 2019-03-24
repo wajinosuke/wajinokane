@@ -1,4 +1,4 @@
-import { CSVConverter } from './CSVConverter/CSVConverter';
+import { CSVConverter } from './CSVConverter';
 import * as log4js from 'log4js';
 import * as json2csv from 'json2csv';
 import * as fs from 'fs';
@@ -17,7 +17,7 @@ const main = async () => {
     const logger = log4js.getLogger('system');
     let logmsg = "";
 
-    logmsg = 'main start';
+    logmsg = 'CSVConverter start';
     console.log(logmsg);
     logger.trace(logmsg);
 
@@ -33,7 +33,7 @@ const main = async () => {
 
     fs.writeFileSync(outputFilename, outputData);
 
-    logmsg = 'main end';
+    logmsg = 'CSVconverter end';
     console.log(logmsg);
     logger.trace(logmsg);
 }
