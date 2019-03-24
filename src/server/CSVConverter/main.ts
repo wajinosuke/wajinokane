@@ -2,6 +2,7 @@ import { CSVConverter } from './CSVConverter';
 import * as log4js from 'log4js';
 import * as json2csv from 'json2csv';
 import * as fs from 'fs';
+import * as iconv from 'iconv-lite';
 
 // log4jsの初期化
 log4js.configure({
@@ -31,7 +32,10 @@ const main = async () => {
     const convertedData = await converter.convertCSV(mapFilename, csvFilename);
     const outputData = json2csv.parse(convertedData);
 
-    fs.writeFileSync(outputFilename, outputData);
+    // Shift_JISに変換
+    const encodeData = iconv.encode(outputData, 'Shift_JIS');
+
+    fs.writeFileSync(outputFilename, encodeData);
 
     logmsg = 'CSVconverter end';
     console.log(logmsg);
