@@ -2,11 +2,12 @@
   "name": "wajinokane",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ts",
+  "main": "main.tsx",
   "scripts": {
     "test": "jest",
     "exec": "node dist/server/main.js",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --port 3000 --contentBase ./dist_client/assets/ --open true"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,8 @@
     "@types/node": "^10.9.4",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "jest": "^24.5.0",
     "ts-jest": "^24.0.0",
     "ts-loader": "^5.1.1",

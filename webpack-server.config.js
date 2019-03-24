@@ -8,8 +8,8 @@ module.exports = {
     externals: [nodeExternals()],
     entry: [path.join(__dirname, '/src/server/main.ts')],
     output: {
-        path: `${__dirname}/dist/server/`,
-        filename: 'main.js'
+        path: `${__dirname}/dist_server/bin/`,
+        filename: 'server_main.js'
     },
     module: {
         rules: [{
@@ -31,8 +31,13 @@ module.exports = {
             }
         }]
     },
+    devServer: {
+        contentBase: path.join(__dirname, 'dist/client'),
+        open: true,
+        port: 3000
+    },
     // main.ts以外のファイルをインポートするために必要
     resolve: {
-        extensions: ['.ts']
+        extensions: ['.ts','.js']
     }
 };

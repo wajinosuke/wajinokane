@@ -16,25 +16,25 @@ describe('CSVConverter Class Test', () => {
     describe('readMapFile Method Test', () => {
         test('readMapFile Success', async () => {
             const converter = new CSVConverter();
-            const map: any = await converter['readMapFile']('./test_files/mapFile.json');
+            const map: any = await converter['readMapFile']('./src/server/CSVConverter/test_files/mapFile.json');
             expect(map.encode).toBeDefined();
             expect(map.encode).toBe('Shift_JIS');
         });
         test('readMapFile readFile failured', async () => {
             const converter = new CSVConverter();
-            const readMapFilePromise = converter['readMapFile']('./test_files/notfound.json');
+            const readMapFilePromise = converter['readMapFile']('./src/server/CSVConverter/test_files/notfound.json');
             await expect(readMapFilePromise).rejects.toBe('readFile failured');
         });
         test('readMapFile not json format', async () => {
             const converter = new CSVConverter();
-            const readMapFilePromise = converter['readMapFile']('./test_files/notjson.json');
+            const readMapFilePromise = converter['readMapFile']('./src/server/CSVConverter/test_files/notjson.json');
             await expect(readMapFilePromise).rejects.toBe('not json format');
         });
         test('readMapFile encode undefined', async () => {
             const converter = new CSVConverter();
-            const readMapFileUndefinedPromise = converter['readMapFile']('./test_files/mapFile_encode_undefined.json');
+            const readMapFileUndefinedPromise = converter['readMapFile']('./src/server/CSVConverter/test_files/mapFile_encode_undefined.json');
             await expect(readMapFileUndefinedPromise).rejects.toBe('encode undefined');
-            const readMapFileNullPromise = converter['readMapFile']('./test_files/mapFile_encode_null.json');
+            const readMapFileNullPromise = converter['readMapFile']('./src/server/CSVConverter/test_files/mapFile_encode_null.json');
             await expect(readMapFileNullPromise).rejects.toBe('encode undefined');
         });
     });
@@ -42,7 +42,7 @@ describe('CSVConverter Class Test', () => {
         test('readCSVFile Success', async () => {
             const converter = new CSVConverter();
             const encode = 'Shift_JIS'
-            const csv: any = await converter['readCSVFile']('./test_files/sjis_csv.csv', encode);
+            const csv: any = await converter['readCSVFile']('./src/server/CSVConverter/test_files/sjis_csv.csv', encode);
             expect(csv[0]['日付']).toBe('2018/7/31');
             expect(csv[0]['情報１']).toBe('一行目１');
             expect(csv[0]['数値３']).toBe('2442');
@@ -55,19 +55,19 @@ describe('CSVConverter Class Test', () => {
         test('readCSVFile readFile failured', async () => {
             const converter = new CSVConverter();
             const encode = 'Shift_JIS'
-            const readCSVFilePromise = converter['readCSVFile']('./test_files/notfound.csv', encode);
+            const readCSVFilePromise = converter['readCSVFile']('./src/server/CSVConverter/test_files/notfound.csv', encode);
             await expect(readCSVFilePromise).rejects.toBe('readFile failured');
         });
         test('readCSVFile encoding not exists failured', async () => {
             const converter = new CSVConverter();
             const encode = 'notexists'
-            const readCSVFilePromise = converter['readCSVFile']('./test_files/sjis_broken.csv', encode);
+            const readCSVFilePromise = converter['readCSVFile']('./src/server/CSVConverter/test_files/sjis_broken.csv', encode);
             await expect(readCSVFilePromise).rejects.toBe('encoding not exists');
         });
         test('readCSVFile parseCsv failured', async () => {
             const converter = new CSVConverter();
             const encode = 'Shift_JIS'
-            const readCSVFilePromise = converter['readCSVFile']('./test_files/sjis_broken.csv', encode);
+            const readCSVFilePromise = converter['readCSVFile']('./src/server/CSVConverter/test_files/sjis_broken.csv', encode);
             await expect(readCSVFilePromise).rejects.toBe('parseCsv failured');
         });
     });
@@ -191,7 +191,7 @@ describe('CSVConverter Class Test', () => {
     describe('convertCSV Test', () => {
         test('convertCSV Success', async () => {
             const convert = new CSVConverter();
-            const info = await convert.convertCSV('./test_files/mapFile.json', './test_files/sjis_csv.csv');
+            const info = await convert.convertCSV('./src/server/CSVConverter/test_files/mapFile.json', './src/server/CSVConverter/test_files/sjis_csv.csv');
             expect(info[0].info1).toBe('一行目１');
             expect(info[0].date1.toISOString()).toBe(new Date('2018/7/31').toISOString());
             expect(info[0].number1).toBe(1);

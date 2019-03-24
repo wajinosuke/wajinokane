@@ -1,6 +1,5 @@
 /node_modules
-/dist
-/mapFiles
-/csvFiles
-/outputFiles
+/dist_server/bin
+/dist_client/lib
+/dist_client/assets/index.html
 system.log
