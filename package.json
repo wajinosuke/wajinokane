@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "test": "jest",
-    "exec": "node dist/main.js",
+    "exec": "node dist/server/main.js",
     "build": "webpack"
   },
   "repository": {

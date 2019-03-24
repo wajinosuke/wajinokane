@@ -6,9 +6,9 @@ module.exports = {
     devtool: 'source-map',
     // node_modules配下のパッケージをWebpackに含まないように設定
     externals: [nodeExternals()],
-    entry: [path.join(__dirname, '/src/main.ts')],
+    entry: [path.join(__dirname, '/src/server/main.ts')],
     output: {
-        path: `${__dirname}/dist`,
+        path: `${__dirname}/dist/server`,
         filename: 'main.js'
     },
     module: {
