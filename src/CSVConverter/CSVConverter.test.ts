@@ -87,6 +87,16 @@ describe('CSVConverter Class Test', () => {
                     "transfer": "number"
                 },
                 {
+                    "in": "数値２",
+                    "out": "number2_plus",
+                    "transfer": "number_plus"
+                },
+                {
+                    "in": "数値２",
+                    "out": "number2_minus",
+                    "transfer": "number_minus"
+                },
+                {
                     "in": "情報１",
                     "out": "info1",
                     "transfer": "none"
@@ -95,6 +105,14 @@ describe('CSVConverter Class Test', () => {
                     "in": "情報５",
                     "out": "info5",
                     "transfer": "none"
+                },
+                {
+                    "in": "和暦１",
+                    "out": "wareki1",
+                    "transfer": "date_wareki",
+                    "gengo": "H",
+                    "delete_string": "H",
+                    "delimiter": ".",
                 }
                 ]
             };
@@ -102,10 +120,11 @@ describe('CSVConverter Class Test', () => {
                 {
                     "日付": "2020/1/1",
                     "数値１": "10000",
-                    "数値２": "100",
+                    "数値２": "-100",
                     "情報１": "1情報１",
                     "情報２": "1情報２",
-                    "情報５": "1情報５"
+                    "情報５": "1情報５",
+                    "和暦１": "H29.1.1"
                 },
                 {
                     "日付": " 2020/12/12",
@@ -113,51 +132,66 @@ describe('CSVConverter Class Test', () => {
                     "数値２": "200",
                     "情報１": "2情報１",
                     "情報２": "2情報２",
-                    "情報５": "2情報５"
+                    "情報５": "2情報５",
+                    "和暦１": "H29.12.12"
                 },
                 {
                     "日付": "2020/3/13",
                     "数値１": "30000",
-                    "数値２": "300",
+                    "数値２": "-300",
                     "情報１": "3情報１",
                     "情報２": "3情報２",
-                    "情報５": "3情報５"
+                    "情報５": "3情報５",
+                    "和暦１": "H29.3.13"
                 },
                 {
                     "日付": "2020/12/4",
                     "数値１": "40000",
-                    "数値２": "400",
+                    "数値２": "0",
                     "情報１": "4情報１",
                     "情報２": "4情報２",
-                    "情報５": "4情報５"
+                    "情報５": "4情報５",
+                    "和暦１": "H29.12.4"
                 },
                 {
-                    "日付": "2020/5/5",
+                    "日付": "20200505",
                     "数値１": "50000",
                     "数値２": "500",
                     "情報１": "5情報１",
                     "情報２": "5情報２",
-                    "情報５": "5情報５"
+                    "情報５": "5情報５",
+                    "和暦１": "H29.5.5"
                 }
             ];
-            const mappedData = converter['mapCSV'](csvInfo,mapInfo);
+            const mappedData = converter['mapCSV'](csvInfo, mapInfo);
             expect(mappedData[0].info1).toBe('1情報１');
             expect(mappedData[0].date1.toISOString()).toBe(new Date('2020/1/1').toISOString());
             expect(mappedData[0].number1).toBe(10000);
+            expect(mappedData[0].number2_minus).toBe(100);
+            expect(mappedData[0].number2_plus).toBe(0);
             expect(mappedData[0].info5).toBe('1情報５');
+            expect(mappedData[0].wareki1.toISOString()).toBe(new Date('2017/1/1').toISOString());
+            expect(mappedData[1].number2_minus).toBe(0);
+            expect(mappedData[1].number2_plus).toBe(200);
             expect(mappedData[1].date1.toISOString()).toBe(new Date('2020/12/12').toISOString());
+            expect(mappedData[1].wareki1.toISOString()).toBe(new Date('2017/12/12').toISOString());
             expect(mappedData[2].date1.toISOString()).toBe(new Date('2020/3/13').toISOString());
+            expect(mappedData[2].wareki1.toISOString()).toBe(new Date('2017/3/13').toISOString());
             expect(mappedData[3].date1.toISOString()).toBe(new Date('2020/12/4').toISOString());
+            expect(mappedData[3].wareki1.toISOString()).toBe(new Date('2017/12/4').toISOString());
             expect(mappedData[4].info1).toBe('5情報１');
             expect(mappedData[4].date1.toISOString()).toBe(new Date('2020/5/5').toISOString());
             expect(mappedData[4].number1).toBe(50000);
+            expect(mappedData[4].number2_minus).toBe(0);
+            expect(mappedData[4].number2_plus).toBe(500);
             expect(mappedData[4].info5).toBe('5情報５');
+            expect(mappedData[4].wareki1.toISOString()).toBe(new Date('2017/5/5').toISOString());
         });
     });
     describe('convertCSV Test', () => {
         test('convertCSV Success', async () => {
             const convert = new CSVConverter();
-            const info = await convert.convertCSV('./test_files/mapFile.json','./test_files/sjis_csv.csv');
+            const info = await convert.convertCSV('./test_files/mapFile.json', './test_files/sjis_csv.csv');
             expect(info[0].info1).toBe('一行目１');
             expect(info[0].date1.toISOString()).toBe(new Date('2018/7/31').toISOString());
             expect(info[0].number1).toBe(1);

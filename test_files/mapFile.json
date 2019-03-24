@@ -1,0 +1,24 @@
+{
+    "encode": "Shift_JIS",
+    "convert": [{
+            "in": "日付",
+            "out":"date1",
+            "transfer": "date"
+        },
+        {
+            "in": "数値１",
+            "out": "number1",
+            "transfer": "number"
+        },
+        {
+            "in": "情報１",
+            "out": "info1",
+            "transfer": "none"
+        },
+        {
+            "in": "情報５",
+            "out": "info5",
+            "transfer": "none"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ],
+}

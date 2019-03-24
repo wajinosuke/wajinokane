@@ -10,6 +10,9 @@ export class CSVConverter {
      * マップファイルの文字コード
      */
     static readonly MAP_FILE_ENCODE = 'utf8';
+    static readonly WAREKI_GAP = {
+        'H': 1988
+    };
 
     /**
      * マップファイルを読み込み、JSON形式でマップ情報を返す
@@ -122,8 +125,23 @@ export class CSVConverter {
             'date': (convInfo: any, cellData: string) => {
                 return moment(cellData).toDate();
             },
+            'date_wareki': (convInfo: any, cellData: string) => {
+                const delimiter = convInfo.delimiter;
+                const deletedData = cellData.replace(convInfo.delete_string, '');
+                const splitDate = deletedData.split(delimiter);
+                const year = Number(splitDate[0]) + CSVConverter.WAREKI_GAP[convInfo.gengo];
+                return new Date(year, Number(splitDate[1]) - 1, Number(splitDate[2]));
+            },
             'number': (convInfo: any, cellData: string) => {
                 return Number(cellData);
+            },
+            'number_plus': (convInfo: any, cellData: string) => {
+                const num = Number(cellData);
+                return (num > 0) ? num : 0;
+            },
+            'number_minus': (convInfo: any, cellData: string) => {
+                const num = Number(cellData);
+                return (num < 0) ? num * -1 : 0;
             },
             'none': (convInfo: any, cellData: string) => {
                 return cellData;

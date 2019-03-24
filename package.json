@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "exec": "node dist/main.js",
-    "build": "webpack && node dist/main.js"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,12 @@
   },
   "homepage": "https://github.com/wajinosuke/wajinokane#readme",
   "dependencies": {
+    "@types/json2csv": "^4.2.0",
     "@types/log4js": "^2.3.5",
     "csv": "^3.1.0",
+    "csvtojson": "^2.0.8",
     "iconv-lite": "^0.4.24",
+    "json2csv": "^4.3.5",
     "log4js": "^4.0.2",
     "moment": "^2.22.2",
     "mongoose": "^5.2.15"

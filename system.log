@@ -6944,3 +6944,3075 @@
     at runCallback (timers.js:810:20)
     at tryOnImmediate (timers.js:768:5)
     at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T10:13:48.367] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T10:13:48.372] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T10:13:48.465] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T10:13:48.468] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:13:48.468] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:13:48.470] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:13:48.470] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:13:48.713] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T10:13:48.713] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T10:13:48.850] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T10:13:48.851] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T10:14:00.831] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T10:14:00.834] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T10:14:00.882] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T10:14:00.934] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:14:00.934] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:14:00.946] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:14:00.946] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:14:01.253] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T10:14:01.253] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T10:14:01.351] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T10:14:01.354] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T10:58:36.217] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T10:58:36.218] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T10:58:36.223] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T10:58:36.227] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:58:36.227] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:58:36.229] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:58:36.230] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:58:36.374] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T10:58:36.375] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T10:58:36.418] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T10:58:36.418] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T10:58:38.302] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T10:58:38.304] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T10:58:38.308] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T10:58:38.311] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:58:38.311] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:58:38.316] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T10:58:38.317] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T10:58:38.467] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T10:58:38.467] [ERROR] system - { Error: ENOENT: no such file or directory, open 'c:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'c:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T10:58:38.500] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T10:58:38.500] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T13:50:48.771] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T13:50:48.772] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T13:50:48.775] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T13:50:48.777] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:50:48.777] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:50:48.778] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:50:48.779] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:50:48.856] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T13:50:48.856] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T13:50:48.868] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T13:50:48.868] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T13:50:57.002] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T13:50:57.003] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T13:50:57.006] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T13:50:57.007] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:50:57.007] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:50:57.008] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:50:57.009] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:50:57.081] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T13:50:57.081] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T13:50:57.090] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T13:50:57.090] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T13:51:41.384] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T13:51:41.385] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T13:51:41.387] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T13:51:41.389] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:51:41.389] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:51:41.390] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:51:41.390] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:51:41.455] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T13:51:41.455] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T13:51:41.464] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T13:51:41.464] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T13:52:01.515] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T13:52:01.517] [ERROR] system - Error: Number of columns on line 10 does not match header
+    at Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+[2019-03-24T13:53:58.255] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T13:53:58.255] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T13:53:58.258] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T13:53:58.260] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:53:58.260] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:53:58.261] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:53:58.261] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:53:58.317] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T13:53:58.317] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T13:53:58.328] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T13:53:58.328] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T13:57:38.300] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T13:57:38.301] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T13:57:38.303] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T13:57:38.305] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:57:38.305] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:57:38.306] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T13:57:38.306] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T13:57:38.363] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T13:57:38.363] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T13:57:38.373] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T13:57:38.373] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:02:22.099] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:02:22.100] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:02:22.102] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:02:22.105] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:02:22.106] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:02:22.109] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:02:22.110] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:02:22.189] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:02:22.189] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:02:22.203] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:02:22.204] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:04:52.019] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:04:52.020] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:04:52.023] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:04:52.025] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:04:52.025] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:04:52.025] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:04:52.026] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:04:52.093] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:04:52.093] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:04:52.105] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:04:52.105] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:07:50.241] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:07:50.242] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:07:50.245] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:07:50.248] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:07:50.248] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:07:50.249] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:07:50.249] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:07:50.349] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:07:50.349] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:07:50.362] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:07:50.362] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:11:14.577] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:11:14.578] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:11:14.581] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:11:14.582] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:11:14.582] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:11:14.583] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:11:14.583] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:11:14.668] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:11:14.668] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:11:14.678] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:11:14.678] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:16:04.813] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:16:04.814] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:16:04.817] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:16:04.820] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:16:04.820] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:16:04.821] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:16:04.822] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:16:04.905] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:16:04.905] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:16:04.921] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:16:04.922] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:16:59.344] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:16:59.346] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:16:59.351] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:16:59.353] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:16:59.354] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:16:59.355] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:16:59.356] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:16:59.539] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:16:59.540] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:16:59.581] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:16:59.581] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:19:39.286] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:19:39.288] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:19:39.292] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:19:39.295] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:19:39.295] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:19:39.297] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:19:39.297] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:19:39.387] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:19:39.387] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:19:39.402] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:19:39.402] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:19:53.909] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:19:53.910] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:19:53.912] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:19:53.913] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:19:53.913] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:19:53.914] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:19:53.914] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:19:53.975] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:19:53.975] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:19:53.985] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:19:53.985] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:20:49.612] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:20:49.613] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:20:49.616] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:20:49.618] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:20:49.618] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:20:49.619] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:20:49.619] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:20:49.690] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:20:49.690] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:20:49.700] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:20:49.700] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:22:04.881] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:22:04.882] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:22:04.884] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:22:04.886] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:22:04.886] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:22:04.887] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:22:04.887] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:22:04.962] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:22:04.963] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:22:04.972] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:22:04.973] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:22:16.662] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:22:16.663] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:22:16.665] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:22:16.667] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:22:16.667] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:22:16.668] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:22:16.668] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:22:16.750] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:22:16.750] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:22:16.760] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:22:16.760] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:22:25.435] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:22:25.436] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:22:25.438] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:22:25.439] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:22:25.439] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:22:25.440] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:22:25.440] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:22:25.520] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:22:25.521] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:22:25.530] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:22:25.531] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:25:13.415] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:25:13.417] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:25:13.419] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:25:13.421] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:25:13.421] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:25:13.421] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:25:13.423] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:25:13.486] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:25:13.486] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:25:13.497] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:25:13.497] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:25:25.009] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:25:25.010] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:25:25.013] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:25:25.016] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:25:25.016] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:25:25.017] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:25:25.018] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:25:25.094] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:25:25.094] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:25:25.105] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:25:25.105] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:33:26.689] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:33:26.690] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:33:26.693] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:33:26.694] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:33:26.694] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:33:26.694] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:33:26.694] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:33:26.783] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:33:26.783] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:33:26.794] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:33:26.794] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:35:16.778] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:35:16.779] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:35:16.781] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:35:16.783] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:35:16.783] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:35:16.784] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:35:16.784] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:35:16.851] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:35:16.851] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:35:16.862] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:35:16.863] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:37:04.242] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:37:04.247] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:37:04.250] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:37:04.252] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:37:04.252] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:37:04.254] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:37:04.254] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:37:04.341] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:37:04.341] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:37:04.356] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:37:04.357] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:38:57.996] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:38:57.998] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:38:58.003] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:38:58.005] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:38:58.006] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:38:58.007] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:38:58.007] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:38:58.101] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:38:58.101] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:38:58.114] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:38:58.114] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:39:32.696] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:39:32.697] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:39:32.700] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:39:32.702] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:39:32.702] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:39:32.703] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:39:32.703] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:39:32.787] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:39:32.787] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:39:32.801] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:39:32.801] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:41:23.409] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:41:23.410] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:41:23.412] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:41:23.414] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:41:23.414] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:41:23.415] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:41:23.415] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:41:23.480] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:41:23.481] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:41:23.494] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:41:23.494] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:42:01.250] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:42:01.251] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:42:01.253] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:42:01.255] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:42:01.255] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:42:01.258] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:42:01.258] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:42:01.352] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:42:01.353] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:42:01.364] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:42:01.364] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:43:57.185] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:43:57.186] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:43:57.189] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:43:57.190] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:43:57.191] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:43:57.191] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:43:57.191] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:43:57.283] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:43:57.283] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:43:57.294] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:43:57.294] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:45:32.409] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:45:32.410] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:45:32.413] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:45:32.416] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:45:32.416] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:45:32.419] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:45:32.419] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:45:32.505] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:45:32.505] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:45:32.517] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:45:32.517] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:46:12.852] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:46:12.853] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:46:12.855] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:46:12.856] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:46:12.856] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:46:12.857] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:46:12.857] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:46:12.927] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:46:12.928] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:46:12.938] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:46:12.939] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+[2019-03-24T14:46:57.058] [ERROR] system - CSVConverter readMapFile readFile failured.
+[2019-03-24T14:46:57.059] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.json'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.json' }
+[2019-03-24T14:46:57.062] [ERROR] system - CSVConverter readMapFile not json format.
+[2019-03-24T14:46:57.064] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:46:57.064] [ERROR] system - {
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:46:57.065] [ERROR] system - CSVConverter readMapFile encode undefind.
+[2019-03-24T14:46:57.065] [ERROR] system - {
+    "encode": null,
+    "convert": [{
+            "type": "date",
+            "in": {
+                "num": 0,
+                "format": "%y/%m/%d"
+            },
+            "out": {
+                "column": "using_day"
+            }
+        },
+        {
+            "in": "ご利用店名/現地通貨額",
+            "out": "detail",
+            "transfer": "none"
+        },
+        {
+            "in": "ご利用金額（円）",
+            "out": "pay_method",
+            "transfer": "none"
+        },
+        {
+            "in": "今回のお支払金額（円）",
+            "out": "pay_amount",
+            "transfer": "none"
+        }
+    ]
+}
+[2019-03-24T14:46:57.170] [ERROR] system - CSVConverter readCSVFile readFile failured.
+[2019-03-24T14:46:57.170] [ERROR] system - { Error: ENOENT: no such file or directory, open 'C:\Users\wazie\dev\wajinokane\test_files\notfound.csv'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\wazie\\dev\\wajinokane\\test_files\\notfound.csv' }
+[2019-03-24T14:46:57.183] [ERROR] system - CSVConverter readCSVFile parseCsv failured.
+[2019-03-24T14:46:57.184] [ERROR] system - Error: Number of columns on line 19 does not match header
+    at Parser.Object.<anonymous>.Parser.error (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:694:9)
+    at Parser.Object.<anonymous>.Parser.__push (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:334:18)
+    at Parser.Object.<anonymous>.Parser.__flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:287:17)
+    at Parser.Object.<anonymous>.Parser._flush (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:273:24)
+    at Parser.prefinish (_stream_transform.js:137:10)
+    at emitNone (events.js:106:13)
+    at Parser.emit (events.js:208:7)
+    at prefinish (_stream_writable.js:603:14)
+    at finishMaybe (_stream_writable.js:611:5)
+    at afterWrite (_stream_writable.js:465:3)
+    at onwrite (_stream_writable.js:455:7)
+    at Parser.afterTransform (_stream_transform.js:90:3)
+    at Immediate.setImmediate (C:\Users\wazie\dev\wajinokane\node_modules\csv-parse\lib\index.js:268:12)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
