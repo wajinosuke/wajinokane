@@ -1,3 +1,4 @@
+// このファイルはコンパイルに利用されないが、vscode用に設定ファイルを残す
 {
   "compilerOptions": {
     "sourceMap": true,
@@ -7,6 +8,7 @@
     "lib": [
       "es2015",
       "es2015.promise"
-    ]
+    ],
+    "jsx": "react"
   }
 }
