@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // @typesで定義していないnode_modulesのモジュールを解決するために必要
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5", // TSはECMAScript 5に変換
+    "module": "es2015", // TSのモジュールはES Modulesとして出力
+    "lib": [
+      "es2015",
+      "es2015.promise",
+      // ブラウザのDOMオブジェクトを利用するために必要
+      "dom"
+    ],
+    "jsx": "react"
+  }
+}
